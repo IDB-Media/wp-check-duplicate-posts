@@ -28,7 +28,7 @@ function wh_ebb_duplicate_title_check( $post_id, $post )
  
 add_action( 'save_post', 'wh_ebb_duplicate_title_check', 10, 2 ) ;
  
-/// handel error for back end 
+/// handle error notification for back end 
 function not_published_error_notice() {
     if(isset($_GET['wh_ebb_coupon_error']) == 1 ){
 		?>
